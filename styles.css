@@ -1,3 +1,38 @@
 /*Your portfolio should have at least one media query
 The height of the welcome section should be equal to the height of the viewport
 The navbar should always be at the top of the viewport*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 1px solid;
+}
+body {
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 10% 80% 10%;
+}
+#header {
+    background-color: aqua;
+    display: flex;
+}
+#main {
+    background-color: blueviolet;
+    display: grid;
+    grid-row: 1fr 1fr 1fr;
+}
+}
+#welcome-section {
+    background-color: blue;
+}
+#projects {
+    background-color: red;
+}
+#contact {
+    background-color: green;
+}
+#footer {
+    background-color: yellow;
+    display: flex;
+}
